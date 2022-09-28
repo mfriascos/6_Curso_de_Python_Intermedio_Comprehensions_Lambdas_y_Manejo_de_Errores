@@ -6,6 +6,8 @@
 
 **List**
 
+![El Zen de Python](#el-zen-de-python)
+
 # El Zen de Python 
 
 El Zen de Python se compone por los principios para escribir tu código de manera clara, sencilla y precisa. Estos son:
