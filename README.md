@@ -2,7 +2,7 @@
 
 **Curso intermedio de Python**
 
-<p align="center"><img width=35% src="./Pictures/python_logo.png"></p>
+<p align="center"><img width=40% src="./Pictures/python_logo.png"></p>
 
 **List**
 
@@ -43,6 +43,18 @@ Si por hacer las cosas ya y tenemos poco tiempo, si es mejor dejarlo para despu�
 Si somos capaces de explicar nuestra implementación a otros desarrolladores paso a paso, es una buena idea. En cambio si no podemos hacerlo, significa que ni nosotros entendemos la implementación y deberíamos repensar nuestra forma de encarar la solución.
 * **Los espacios de nombres son una gran idea, ¡Tengamos más de esos! (namespaces):**
 Es el nombre que se ha indicado luego de la palabra import, es decir la ruta (namespace) del módulo. (Lo veremos a profundidad más adelante).
+
+# ¿Qué es la Documentación? 
+
+**La documentación es la biblia de cualquier programador.**
+
+No puedes aspirar a aprender un lenguaje si no lees documentación. Sé que muchas personas se saltan eso porque piensan “ufff, es mucho texto, se ve feo”, etc. Pero es la documentación quien nos va a decir exactamente cómo funciona el lenguaje (y cualquier tecnología). No hay un solo desarrollador profesional que no lea documentación.
+
+¡Y claro!, con esto no quiero decir que tengas que estar metido en la documentación siempre, pero quiero que sepas que la vas a consultar muchas veces cuando tengas problemas ❤️.
+
+En ese paso de programador novato a programador profesional se encuentra aprender a consultar documentación, da el paso, no le temas a la documentación, es tu mejor amiga 😄.
+
+![Documentación-Python](https://platzi.com/clases/2255-python-intermedio/36457-que-es-la-documentacion/)
 
 
 
