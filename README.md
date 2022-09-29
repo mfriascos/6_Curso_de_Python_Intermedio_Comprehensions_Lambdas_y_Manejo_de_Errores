@@ -61,7 +61,22 @@ En ese paso de programador novato a programador profesional se encuentra aprende
 
 * **Módulo**: Es código escrito por otra persona que sirve para resolver un problema de manera rápida. 
 
-[Entorno_virtual](Pictures/entorno_virtual.png)
+<p align="center"><img width=50% src="./Pictures/entorno_virtual.png"></p>
+
+Se debería tener una versión única de Python funcionando en cada proyecto, por lo tanto, al actualizar los módulos se puede elegir en que proyecto actualizarlo y en cuál no. 
+
+El concepto de entorno virtual se reduce a tener python funcionando independientemente a cada proyecto. 
+
+<p align="center"><img width=50% src="./Pictures/entorno_virtual_2.png"></p>
+
+la idea es sencilla, de hecho el concepto es similar al de los contenedores de Docker, como profesional empezarás a requerir de trabajar diversos proyectos que trabajen con diferentes versiones, ya sea del lenguaje o de algún módulo.
+
+Sería una catástrofe tener que instalar y actualizar módulos para cada proyecto cuidando que ninguno se rompa, porque fácilmente podrías actualizar un módulo que, para un proyecto funcione, pero para otro deje de funcionar, es por eso que se crea el concepto de entornos virtuales.
+
+Este concepto lo tienen muchos lenguajes, y lo genial es que soluciona muy bien el problema de la compatibilidad entre proyectos, porque cada entorno virtual es independiente y funciona con las versiones que se les hayan instalado ahí mismo.
+
+
+
 
 
 
