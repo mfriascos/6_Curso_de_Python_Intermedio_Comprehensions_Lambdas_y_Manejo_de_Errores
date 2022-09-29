@@ -75,7 +75,18 @@ Sería una catástrofe tener que instalar y actualizar módulos para cada proyec
 
 Este concepto lo tienen muchos lenguajes, y lo genial es que soluciona muy bien el problema de la compatibilidad entre proyectos, porque cada entorno virtual es independiente y funciona con las versiones que se les hayan instalado ahí mismo.
 
+# El Primer Paso Profesional: Creación de un Entorno Virtual 
 
+* Se crea una carpeta y se ingresa a ella **$ mkdir proyecto_ejemplo && cd proyecto_ejemplo**
+* Se inicializa un sistema de control de versiones (GIT) **$ git init** Es recomendable hacerlo para ser un buen desarrollador
+* Se procede a crear un ambiente virtual **$ python3 -m venv nombre_venv** 
+    * Usualmente nombre_venv es **venv** o **env**
+* Se ingresa a la carpeta venv **$ cd venv**
+* Activación del ambiente virtual:
+    * Windows: **.\venv\Scripts\activate**
+    * Unix o MacOs: **source venv/bin/activate**
+* Desactivar el ambiente virtual:
+    * **desactivate**
 
 
 
