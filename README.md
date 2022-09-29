@@ -6,7 +6,8 @@
 
 **List**
 
-- ![El Zen de Python](#el-zen-de-python)
+- [El Zen de Python](#el-zen-de-python)
+- [¿Qué es la Documentación?](#¿qué-es-la-documentación)
 
 # El Zen de Python 
 
@@ -54,7 +55,9 @@ No puedes aspirar a aprender un lenguaje si no lees documentación. Sé que much
 
 En ese paso de programador novato a programador profesional se encuentra aprender a consultar documentación, da el paso, no le temas a la documentación, es tu mejor amiga 😄.
 
-![Documentación-Python](https://platzi.com/clases/2255-python-intermedio/36457-que-es-la-documentacion/)
+[Documentación-Python](https://platzi.com/clases/2255-python-intermedio/36457-que-es-la-documentacion/)
+
+
 
 
 
