@@ -57,6 +57,13 @@ En ese paso de programador novato a programador profesional se encuentra aprende
 
 [Documentación-Python](https://platzi.com/clases/2255-python-intermedio/36457-que-es-la-documentacion/)
 
+# ¿Qué es un Entorno Virtual? 
+
+* **Módulo**: Es código escrito por otra persona que sirve para resolver un problema de manera rápida. 
+
+[Entorno_virtual](Pictures/entorno_virtual.png)
+
+
 
 
 
