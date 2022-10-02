@@ -85,8 +85,48 @@ Este concepto lo tienen muchos lenguajes, y lo genial es que soluciona muy bien 
 * Activación del ambiente virtual:
     * Windows: **.\venv\Scripts\activate**
     * Unix o MacOs: **source venv/bin/activate**
+    * Para mayotr facilidad se crea un alias. *alias avenv='source venv/bin/activate'*
 * Desactivar el ambiente virtual:
-    * **desactivate**
+    * **deactivate**
+
+# Instalación de Dependencias con PIP (Package Installer for Python)
+Básicamente, pip es como el npm de JavaScript, y el archivo requeriments.txt es como el package.json de JavaScript.
+
+Es importante recordar que esto se debe correr con el entorno virtual activado (avenv), de esta manera todas las dependencias que instalemos se guardaran para este entorno virtual (de lo contrario se guardarían de manera global, que es justo lo que no queremos).
+
+Algo importante, si estás manejando git, es bueno siempre ignorar la carpeta venv, esto porque realmente no nos importa subir todo eso al repositorio, puedes mirarlo como que venv es el node_modules de JavaScript, a fin de cuentas, cualquier otro programador que trabaje con nuestro código creará su propio entorno virtual e instalará las dependencias que dejamos en nuestro requeriments.txt.
+
+Y un dato curioso es que, el operador **>** en la terminal es algo especial de UNIX, ya que este operador lo que hace es redirigir la salida de cualquier comando hacia donde lo mandes, por defecto la salida es en la terminal, pero al usar **>** le dijimos a la terminal que, en lugar de que la salida sea en la terminal, que se redirija al archivo requeriments.txt. Si quieren jugar con ello, pueden hacerlo con este ejemplo: 
+```bash
+ls -al > test.txt
+```
+eso creará un archivo llamado test.txt, y si lo abren verán cómo es que ese comando funciona
+
+## Módulos Populares 
+
+* **Requests y BeautifulSoup4** Son módulos utilizados para Web Scraping
+* **Pandas y Numpy** Que se utilizan en la ciencia de datos 
+* **Pytest** Utilizado para realizar Testing 
+
+## Resumen PIP 
+
+Pip (package installer for python) Nos permite descargar paquetes de terceros para utilizarlos en nuestro enviroment, ademas se puede definir una versión especifica del paquete.
+
++ **pip install < paquete >** instala el paquete(pandas , matplotlib, bokeh, etc) que se especifique
+
++ **pip freeze** muestra todos los paquetes instalados en tu ambiente virtual
+
+Si quisiéramos que alguien mas pueda ejecutar nuestro proyecto es importante compartir que librería y versión hemos empleado; eso se realiza con el comando:
+```bash
+pip freeze > requirements.txt
+```
+
+El resultado de pip freeze se escribe en requirements.txt (puedes usar otro nombre pero el mostrado es una buena practica)
+
+para instalar paquetes desde un archivo como requirements.txt ejecutamos:
+```bash
+pip install -r requirements.txt 
+```
 
 
 

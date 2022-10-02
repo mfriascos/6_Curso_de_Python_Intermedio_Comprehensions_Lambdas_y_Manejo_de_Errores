@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' /home/marior/Platzi/Desarrollo_Backend_con_Python_y_Django/6_Curso_de_Python_Intermedio_Comprehensions_Lambdas_y_Manejo_de_Errores/proyecto_ejemplo/venv/bin/python3 "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from numpy.f2py.f2py2e import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
