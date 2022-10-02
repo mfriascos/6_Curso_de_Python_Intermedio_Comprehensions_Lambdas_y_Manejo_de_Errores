@@ -141,6 +141,7 @@ pip install -r requirements.txt
 
 <p align="center"><img width=50% src="./Pictures/list_comprehensions.gif"></p>
 
+# Dictionary Comprehensions 
 
 
 
