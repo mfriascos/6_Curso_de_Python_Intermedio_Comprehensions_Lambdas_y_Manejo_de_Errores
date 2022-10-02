@@ -134,9 +134,9 @@ para instalar paquetes desde un archivo como requirements.txt ejecutamos:
 ```bash
 pip install -r requirements.txt 
 ```
-# Listas y Diccionarios Anidados
 
- 
+
+
 
 
 
