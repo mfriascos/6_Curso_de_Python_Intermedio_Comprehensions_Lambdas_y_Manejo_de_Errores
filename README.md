@@ -2,12 +2,19 @@
 
 **Curso intermedio de Python**
 
-<p align="center"><img width=40% src="./Pictures/python_logo.png"></p>
+<p align="center"><img width=35% src="./Pictures/python_logo.png"></p>
 
 **List**
 
 - [El Zen de Python](#el-zen-de-python)
 - [¿Qué es la Documentación?](#¿qué-es-la-documentación)
+- [¿Qué es un Entorno Virtual?](#¿qué-es-un-entorno-virtual)
+- [El Priner Paso Profesional: Creación de un entorno Virtual](#el-primer-paso-profesional-creación-de-un-entorno-virtual)
+- [Instalación de Dependencias con PIP (Package Installer for Python)](#instalación-de-dependencias-con-pip-package-installer-for-python)
+    - [Módulos Populares](#módulos-populares)
+    - [Resumen PIP](#resumen-pip)
+- [Listas y Diccionarios Anidados](#listas-y-diccionarios-anidados)
+
 
 # El Zen de Python 
 
@@ -127,8 +134,9 @@ para instalar paquetes desde un archivo como requirements.txt ejecutamos:
 ```bash
 pip install -r requirements.txt 
 ```
+# Listas y Diccionarios Anidados
 
-
+ 
 
 
 
