@@ -135,6 +135,13 @@ para instalar paquetes desde un archivo como requirements.txt ejecutamos:
 pip install -r requirements.txt 
 ```
 
+# List Comprehensions 
+
+<p align="center"><img width=50% src="./Pictures/list_comprehensions.png"></p>
+
+<p align="center"><img width=50% src="./Pictures/list_comprehensions.gif"></p>
+
+
 
 
 
