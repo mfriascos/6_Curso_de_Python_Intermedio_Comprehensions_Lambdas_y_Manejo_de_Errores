@@ -143,6 +143,7 @@ pip install -r requirements.txt
 
 # Dictionary Comprehensions 
 
+<p align="center"><img width=80% src="./Pictures/dictionary_comprehension.webp"></p>
 
 
 
