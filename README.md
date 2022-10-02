@@ -145,6 +145,31 @@ pip install -r requirements.txt
 
 <p align="center"><img width=80% src="./Pictures/dictionary_comprehension.webp"></p>
 
+# Funciones Anónimas (Lambda Functions)
+
+Son funciones que no tienen un identificador, tienen una serie de características especiales y su 
+estructura es: 
+
+```Python
+lambda argumentos: expresión
+```
+Puede tener únicamente una línea de código 
+
+Ejemplo en palindromo 
+
+```Python 
+#Identificador      Argumento       Expresión
+palindrome     =    lambda string : string == string[::-1]
+print(palindrome('ana'))
+
+>>>solución = True
+
+```
+Entonces, cuando se cree una lambda function es necesario recordar que es una función anónima, pero el nombre 
+que va a tener esta función es la variable que va a guardar el objeto de tipo función que esta expresión retorna
+
+
+
 
 
 
