@@ -168,9 +168,63 @@ print(palindrome('ana'))
 Entonces, cuando se cree una lambda function es necesario recordar que es una función anónima, pero el nombre 
 que va a tener esta función es la variable que va a guardar el objeto de tipo función que esta expresión retorna
 
+# High Order Functions: Filter, map y reduce 
 
+Una función de orden superior es una función que recibe como parámetro a otra función. 
 
+Existe una lista de números aleatorios, de los cuales se obtendrán únicamente los números impares 
 
+ ## uso con list comprehensions Filter
+
+```Python
+my_list = [1, 4, 5, 6, 9, 13, 19, 21]
+odd = [i for i in my_list if i%2 != 0]
+
+print(odd)
+```
+## Uso con Filter
+```Python
+my_list = [1, 4, 5, 6, 9, 13, 19, 21]
+odd = list(filter(lambda x: x%2 !=0, my_list))
+
+print(odd)
+```
+Existe una lista y se requiere el cuadrado de sus valores 
+
+## Uso con List Comprehensions map
+```Python
+my_list2 = [1,2,3,4,5]
+squares = [i**2 for i in my_list2 ]
+
+print(squares)
+```
+## Uso con Map 
+```Python
+my_list2 = [1,2,3,4,5]
+squares = list(map(lambda x: x**2, my_list2))
+
+print(squares)
+```
+
+## Uso con for reduce 
+```Python
+my_list3 = [2,2,2,2,2]
+    
+all_multiplied = 1
+
+for i in my_list3:
+    all_multiplied = all_multiplied*i
+
+print(all_multiplied)
+```    
+## Uso con Reduce 
+```Python 
+from functools import reduce
+
+my_list3 = [2,2,2,2,2]
+all_multiplied = reduce(lambda a,b:a*b,my_list3)
+
+print(all_multiplied)
 
 
 
