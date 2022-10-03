@@ -249,6 +249,36 @@ DATA = [
 ]
 ```
 
+# Los Errores en el Código 
+
+## Tipos de errores 
+
+* SyntaxError: Cuando se está escribiendo código y hay una palabra clave mal escrita, entonces, python detiene el código e informa el error que se está presentando por medio del traceback
+
+* Exception: Sucede en algún punto de nuestro programa, haciendo que se rompa la lógica, por lo tanto, el programa se detiene en el punto donde se presenta el error, algunas excepciones comunes son: 
+
+    * KeyboardInterrupt: Sucede cuando se pulsa **ctrl + c**
+    * KeyError: Se intenta acceder a una llave que no existe en un diccionario 
+    * IndexError: Sucede cuando se trabaja con listas y se intenta acceder a un índice que no existe 
+    * FileNotFoundError: Cuando se intente abrir un archivo que no exista 
+    * ZeroDivisionError: Dividir un número entre 0 
+    * ImportError: Cuando se intenta importar un módulo y este presenta un error
+
+**Lectura de un traceback**
+
+* La manera correcta de leer un traceback es iniciar por el final, en el caso de un error de sintaxis nos indicará en qué línea se encuentra dicho error.
+* En el caso de excepciones la última línea nos indicará el tipo de exepcion que se generó (generalmente son autoexplicativas pero si no entienedes que paso puedes buscar este error)
+* La penúltima línea nos indicará dende se encuentra el error (archivo y línea)
+* La antepenúltima línea nos muestra “most recent call last” lo que significa que la llamada más reciente es la última (el programa se cerró después de esa llamada, se genero un error)
+
+**Elevar una excepción**
+
+Cuando tenemos una excepción en python lo que sucede es que se crea un objeto de tipo exception que se va moviendo a través de los bloques de código hasta llegar al bloque principal si es que no se maneja dicha excepción en algún bloque intermedio el programa se interrumpe y genera el traceback
+
+
+
+
+
 
 
 
