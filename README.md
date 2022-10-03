@@ -225,6 +225,29 @@ my_list3 = [2,2,2,2,2]
 all_multiplied = reduce(lambda a,b:a*b,my_list3)
 
 print(all_multiplied)
+```
+
+# Proyecto: Filtrando Datos 
+
+Una lista de diccionarios 
+```Python
+DATA = [
+    {
+        'name' : 'Facundo',
+        'age' : 72
+        'organization' : 'Platzi',
+        'position' : 'Technical Coach',
+        'language' : 'Python',
+    },
+    {
+        'name' : 'Luisana',
+        'age' : 33
+        'organization' : 'Globant',
+        'position' : 'UX Designer',
+        'language' : 'Javascript',
+    }
+]
+```
 
 
 
