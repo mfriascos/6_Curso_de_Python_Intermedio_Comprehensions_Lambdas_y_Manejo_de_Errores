@@ -13,7 +13,24 @@
 - [Instalación de Dependencias con PIP (Package Installer for Python)](#instalación-de-dependencias-con-pip-package-installer-for-python)
     - [Módulos Populares](#módulos-populares)
     - [Resumen PIP](#resumen-pip)
-- [Listas y Diccionarios Anidados](#listas-y-diccionarios-anidados)
+- [List Comprehensions](#list-comprehensions)
+- [Dictionary Comprehensions](#dictionary-comprehensions)
+- [Funciones Anónimas (Lambda Functions)](#funciones-anónimas-lambda-functions)
+- [High Order Functions: Filter, map y reduce](#high-order-functions-filter-map-y-reduce)
+    - [Uso con list comprehensions Filter](#uso-con-list-comprehensions-filter)
+    - [Uso con Filter](#uso-con-filter)
+    - [Uso con List Comprehensions map](#uso-con-list-comprehensions-map)
+    - [Uso con Map](#uso-con-map)
+    - [Uso con for reduce](#uso-con-for-reduce)
+    - [Uso con Reduce](#uso-con-reduce)
+- [Proyecto: Filtrando Datos](#proyecto-filtrando-datos)
+- [Los Errores en el Código](#los-errores-en-el-código)
+    - [Tipos de Errores](#tipos-de-errores)
+- [Debugging](#debugging)
+- [Manejo de Excepciones](#manejo-de-excepciones)
+- [Assert Statements (Afirmaciones en Python)](#assert-statements-afirmaciones-en-python)
+
+
 
 
 # El Zen de Python 
@@ -174,7 +191,7 @@ Una función de orden superior es una función que recibe como parámetro a otra
 
 Existe una lista de números aleatorios, de los cuales se obtendrán únicamente los números impares 
 
- ## uso con list comprehensions Filter
+ ## Uso con list comprehensions Filter
 
 ```Python
 my_list = [1, 4, 5, 6, 9, 13, 19, 21]
@@ -294,6 +311,8 @@ Cuando se presenta un error en el código a excepción de Syntax y Exception, se
 * **Finally**: Independientemente del error, se maneja para cerrar archivos, o código. 
 
 <p align="center"><img width=45% src="./Pictures/finally.png"></p>
+
+# Assert Statements (Afirmaciones en Python)
 
 
 
