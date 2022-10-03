@@ -275,6 +275,10 @@ DATA = [
 
 Cuando tenemos una excepción en python lo que sucede es que se crea un objeto de tipo exception que se va moviendo a través de los bloques de código hasta llegar al bloque principal si es que no se maneja dicha excepción en algún bloque intermedio el programa se interrumpe y genera el traceback
 
+# Debugging 
+
+Cuando se presenta un error en el código a excepción de Syntax y Exception, se utiliza depuración, es una herramienta que traen los editores de código. 
+
 
 
 
