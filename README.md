@@ -279,6 +279,22 @@ Cuando tenemos una excepción en python lo que sucede es que se crea un objeto d
 
 Cuando se presenta un error en el código a excepción de Syntax y Exception, se utiliza depuración, es una herramienta que traen los editores de código. 
 
+# Manejo de Excepciones
+
+* **Try, except**: se utiliza únicamente para las excepciones de tipo TypeError
+
+<p align="center"><img width=45% src="./Pictures/try_except.png"></p>
+<p align="center"><img width=45% src="./Pictures/try_except2.png"></p>
+
+* **Raise**: Se utiliza cuando el error no es detectado por python, pero sí por nuestra percepción.
+
+<p align="center"><img width=45% src="./Pictures/raise.png"></p>
+<p align="center"><img width=45% src="./Pictures/raise2.png"></p>
+
+* **Finally**: Independientemente del error, se maneja para cerrar archivos, o código. 
+
+<p align="center"><img width=45% src="./Pictures/finally.png"></p>
+
 
 
 
