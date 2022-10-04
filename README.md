@@ -314,6 +314,12 @@ Cuando se presenta un error en el código a excepción de Syntax y Exception, se
 
 # Assert Statements (Afirmaciones en Python)
 
+La función de assert es confirmar si ls condición es correcta, de lo contrario, envía un mensaje de error 
+
+```Python
+assert condicion, Mensaje de Error      
+```
+<p align="center"><img width=45% src="./Pictures/assert.png"></p>
 
 
 
