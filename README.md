@@ -321,6 +321,25 @@ assert condicion, Mensaje de Error
 ```
 <p align="center"><img width=45% src="./Pictures/assert.png"></p>
 
+# ¿Cómo Trabajar con Archivos?
+
+Existen dos tipos de archivos, de texto y binarios. Los de texto contienen letras, números y carácteres, y los binarios, contienen diferentes tipos de información. 
+
+## Modos de Apertura
+
+* r -> Solo lectura
+* r+ -> Lectura y escritura
+* w -> Solo escritura. Sobre escribe el archivo si existe. Crea el archivo si no existe
+* w+ -> Escritura y lectura. Sobre escribe el archivo si existe. Crea el archivo si no existe
+* a -> Añadido (agregar contenido). Crea el archivo si éste no existe
+* a+ -> Añadido (agregar contenido) y lectura. Crea el archivo si éste no existe.
+
+La línea de código para manejar archivos es: 
+```Python 
+with open("./ruta/del/archivo.txt","r") as f: 
+```
+
+
 
 
 
