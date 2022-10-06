@@ -47,7 +47,7 @@ def matrix(words,category):
         flag = False
         printpic(tries,category)
         print("                           "+str(hidden_word))
-        print(the_word)
+        #print(the_word)
         
         if aux > 2 and flag2 == True:
             print()
@@ -68,7 +68,7 @@ def matrix(words,category):
                     game_over(the_word,category)
                     break
         flag2 = False
-        
+
         hidden_word_show = list(hidden_word)
         letter = str(input("       type a letter: ")).upper()
         
