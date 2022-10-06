@@ -36,7 +36,7 @@ def matrix(words,category):
 
     the_word = "".join(words[choose_word]).rstrip().upper()
     the_word_show = list(the_word)
-    hidden_word = (len(the_word)*'X')
+    hidden_word = (len(the_word)*'_')
     
 
     tries = 0
