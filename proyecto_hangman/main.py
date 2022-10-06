@@ -1,6 +1,8 @@
 import os
-from files_py.one import *
-from files_py.hang import printpic
+from files_py.one import one
+from files_py.two import two
+from files_py.three import three
+from files_py.four import four
 
 def start():
     os.system("clear")
@@ -38,12 +40,12 @@ def run():
     
     if option == 1:
         one()
-    # elif option == 2:
-    #     two()
-    # elif option == 3:
-    #     three()
-    # else:
-    #     four()
+    elif option == 2:
+        two()
+    elif option == 3:
+        three()
+    else:
+        four()
 
     
 

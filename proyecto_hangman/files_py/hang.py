@@ -1,16 +1,16 @@
 import os
 
 
-def printpic(hidden_word,the_word,tries,categorie): 
+def printpic(tries,category): 
     os.system("clear")
-    if categorie == 1:
-        str_categorie = 'random words in spanish.'
-    elif categorie == 2:
-        str_categorie = 'verbs on english.'
-    elif categorie == 3:
-        str_categorie = 'verbs in spanish.'
+    if category == 1:
+        str_category = 'random words in spanish.'
+    elif category == 2:
+        str_category = 'verbs on english.'
+    elif category == 3:
+        str_category = 'verbs in spanish.'
     else:
-        str_categorie = 'programation words in spanish or english.'
+        str_category = 'programation words in spanish or english.'
     print("""
          _                                             
         | |                                            
@@ -24,7 +24,7 @@ def printpic(hidden_word,the_word,tries,categorie):
         **********Welcome to hangman game**************
         
 
-        {}""".format(str_categorie))   
+        {}""".format(str_category))   
     HANGMANPICS = [
                             '''
 
@@ -90,6 +90,4 @@ def printpic(hidden_word,the_word,tries,categorie):
                            / \  |
                                 |
                             =========''']
-    print(HANGMANPICS[tries].format(hidden_word))
-    print("                           "+str(hidden_word))
-    print(the_word)
+    print(HANGMANPICS[tries])

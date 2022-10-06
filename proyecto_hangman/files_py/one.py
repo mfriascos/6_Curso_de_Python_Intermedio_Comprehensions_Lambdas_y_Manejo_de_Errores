@@ -1,11 +1,9 @@
 
 import unicodedata
-import random
-import os
 
-from .hang import printpic
+#from .hang import printpic
+from .matrix import matrix
 
-categorie = 1
 
 def one():
     words = []
@@ -17,25 +15,14 @@ def one():
             #---------------------------------------
             words.append(str(line))
 
-    choose_word = random.randint(0,len(words)-1)
+    matrix(words,1)
 
-    the_word = "".join(words[choose_word]).rstrip().upper()
-    the_words = list(the_word)
-    hidden_word = (len(the_word)*'X ')
-    hidden_words = list(hidden_word)
 
-    printpic(hidden_word,the_word,0,categorie)
-    try:
-        letter = str(input("     type a letter: "))
-    except ValueError:
-        print("\nType a valid character\n")
-
-    printpic(hidden_word,the_word,1,categorie)
-
-    try:
-        letter = str(input("     type a letter: "))
-    except ValueError:
-        print("\nType a valid character\n")
+        
+        
+        
+    
 
     
-    printpic(hidden_word,the_word,1,categorie)
+
+    
